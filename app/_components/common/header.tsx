@@ -48,25 +48,25 @@ export const Header = () => {
             </Link>
             <Link
               className={activeLink === '/services' ? 'activeLink' : 'none'}
-              href="/"
+              href="/services"
             >
               Services
             </Link>
             <Link
               className={activeLink === '/showcase' ? 'activeLink' : 'none'}
-              href="/"
+              href="/showcase"
             >
               Showcase
             </Link>
             <Link
               className={activeLink === '/blogs' ? 'activeLink' : 'none'}
-              href="/"
+              href="/blogs"
             >
               Blog
             </Link>
             <Link
               className={activeLink === '/contact' ? 'activeLink' : 'none'}
-              href="/"
+              href="/contact"
             >
               Contact
             </Link>
