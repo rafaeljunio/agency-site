@@ -24,7 +24,7 @@ export const Title = ({
   className,
 }: {
   title: string
-  className: string
+  className?: string
 }) => {
   return <h1 className={`${className} title`}>{title}</h1>
 }

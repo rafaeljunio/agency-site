@@ -42,7 +42,7 @@ export const Header = () => {
             </Link>
             <Link
               className={activeLink === '/team' ? 'activeLink' : 'none'}
-              href="/"
+              href="/team"
             >
               Team
             </Link>
